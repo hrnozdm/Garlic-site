@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&family=Poppins:ital,wght@0,200;0,900;1,100;1,300;1,600;1,800;1,900&family=Raleway:ital,wght@0,100;0,600;1,100;1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    
+   
+}
+
+header {
+    background-image: url(./bg2.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+     
+
+}
+
+#logo{
+    height:3rem;
+    width:3rem;
+    background-image: transparent;
+}
+
+
+.navlinks{
+    display: flex;
+    justify-content:center;
+}
+.navlinks a{
+    color:white;
+    text-decoration: none;
+    margin-top:-3rem;
+    margin-left:0.8rem;
+    font-size:1.5rem;
+
+}
+.navlinks a:hover{
+    border-bottom:0.2rem solid black;
+    color:black;
+}
+
+.headertext{
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    margin-top: 15rem;
+
+}
+
+.headertext h3{
+    font-size:2rem;
+   
+    
+}
+
+.headertext p{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#aboutimg{
+    margin-top: 2rem;
+    color:black;
+   
+}
+
+.abouttext h3{
+    color:black;
+    font-weight: bold;
+}
+
+.abouttext p{
+    font-size: 2rem;
+}
+
+.card_icon:hover{
+    background-color:darkmagenta;
+}
+
+.card_icon{
+    margin-top:1rem;
+    border:none;
+    background-color: #eee;
+}
+
+.icons{
+   font-size:2.5rem;
+   text-align: center;
+}
+
+
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color:brown;
+    align-items: center;
+}
+
+#product{
+    position:relative;
+    top:4rem;
+    background-color: #eee;
+}
+#producttitle{
+    text-align: center;
+}
+
+.card_img{
+    height: 15rem;
+    width: 15rem;
+    text-align: center;
+    margin-left:4rem;
+}
+
+.card-btn{
+    margin-top: 2rem;
+    margin-left: 9rem;
+    border:1px solid lightblue;
+}
+
+.card-btn:hover{
+    background-color:lightblue;
+    
+}
+
+.card_product{
+    border:none;
+    background-color: #eee;
+}
+
+.card_product:hover{
+    background-color: white;
+}
+
+.container+h3{
+    text-align: center;
+}
+
+
+.card_icon3{
+    padding:13px;
+}
+
+#contact{
+    margin-top: 6rem;
+}
+
+.card_contact{
+    border: 1px solid purple;
+    text-align: center;
+    font-size: 2rem;
+    padding-top:1rem;
+    margin-left:1.5rem;
+    margin-top:1rem;
+}
+
+.card_contact i{
+    padding: 0.9rem;
+    border:0.1rem solid purple;
+}
+
+.card_contact i:hover{
+    background-color: darkmagenta;
+}
+
+.card_contact i{
+    margin-top:0.9rem;
+}
+
+.card_contact p{
+    margin-top:0.9rem;
+}
+
+.socialMedya{
+    margin-top:3rem;
+}
+
+.instatext{
+    margin-top: 2rem;
+    font-size:2.5rem;
+}
+
+footer{
+    background-color: brown;
+    color: white;
+    margin-top: 3rem;
+
+}
+
+.footericon{
+   color: white;
+   font-size:3rem;
+}
+
+.footericon:hover{
+    background-color: purple;
+}
+
+.footericon1{
+    color: white;
+    font-size:3.2rem;
+}
+
+
+.footericon1:hover{
+    background-color: lawngreen;
+    border: none;
+}
